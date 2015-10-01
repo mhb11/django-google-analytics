@@ -43,7 +43,7 @@ def google_analytics_request(request, response, path=None, event=None):
             utm_url, 'GET',
             headers={
                 'User-Agent': user_agent,
-                'Accepts-Language:': language
+                'Accept-Language:': language
             }
         )
         # send debug headers if debug mode is set
